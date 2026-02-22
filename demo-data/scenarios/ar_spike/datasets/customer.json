@@ -1,0 +1,5 @@
+[
+  {"internalid": 5001, "entityid": "Apex Retail", "email": "ap@apex.example", "phone": "312-555-0101", "altphone": "312-555-0102", "fax": "312-555-0199", "contact": "Dana Cole", "altemail": "finance@apex.example", "companyname": "Apex Retail"},
+  {"internalid": 5002, "entityid": "Bright Logistics", "email": "accounting@bright.example", "phone": "646-555-0101", "altphone": "646-555-0102", "fax": "646-555-0199", "contact": "Miles Shah", "altemail": "ops@bright.example", "companyname": "Bright Logistics"},
+  {"internalid": 5003, "entityid": "Northwind Health", "email": "ap@northwind.example", "phone": "206-555-0101", "altphone": "206-555-0102", "fax": "206-555-0199", "contact": "Priya Nair", "altemail": "finance@northwind.example", "companyname": "Northwind Health"}
+]

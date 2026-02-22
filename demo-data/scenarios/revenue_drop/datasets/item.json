@@ -1,0 +1,4 @@
+[
+  {"internalid": 9001, "itemid": "SKU-ANL-001", "displayname": "Analytics Platform", "salesdescription": "Subscription analytics suite", "type": "NonInvtPart", "baseprice": "12000"},
+  {"internalid": 9002, "itemid": "SKU-IMP-001", "displayname": "Implementation Services", "salesdescription": "Onboarding and implementation", "type": "InvtPart", "baseprice": "6000"}
+]

@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "scenario": "revenue_drop",
+  "description": "Revenue drop due to churn and discounting pressure",
+  "as_of_date": "2025-11-30",
+  "datasets": {
+    "accounts": "datasets/accounts.json",
+    "accountingperiod": "datasets/accountingperiod.json",
+    "subsidiary": "datasets/subsidiary.json",
+    "vendor": "datasets/vendor.json",
+    "customer": "datasets/customer.json",
+    "department": "datasets/department.json",
+    "location": "datasets/location.json",
+    "item": "datasets/item.json",
+    "classification": "datasets/classification.json",
+    "invoice": "datasets/invoice.json",
+    "customerpayment": "datasets/customerpayment.json",
+    "creditmemo": "datasets/creditmemo.json",
+    "transaction": "datasets/transaction.json"
+  }
+}

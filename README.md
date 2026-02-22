@@ -119,6 +119,10 @@ Validate scenario packs:
 npm run validate:demo-data
 ```
 
+Detailed guide:
+
+- [Mock Data Guide](docs/mock-data.md)
+
 ## Installation
 
 Install the package from npm:

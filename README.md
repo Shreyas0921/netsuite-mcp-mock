@@ -502,3 +502,17 @@ This project is licensed under the MIT License. See the LICENSE file for details
 ## Support
 
 For questions or support, open an issue on GitHub or contact us at <support@chatfin.ai>.
+
+## Shared scenario contract workflow
+
+This repo now syncs demo data from `@chatfinai/mcp-scenario-contract`.
+
+```bash
+npm run sync:scenario-data
+npm run validate:scenario-parity
+npm run sync:scenario-data -- --check
+```
+
+- `sync:scenario-data` regenerates committed scenario JSON from the pinned contract package.
+- `validate:scenario-parity` validates canonical + cross-source parity rules.
+- `sync:scenario-data -- --check` fails if committed data is out of sync.

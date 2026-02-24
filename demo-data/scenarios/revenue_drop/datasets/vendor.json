@@ -1,4 +1,20 @@
 [
-  {"internalid": 7001, "entityid": "CloudHost Inc", "email": "ap@cloudhost.example", "phone": "415-555-0101", "altphone": "415-555-0102", "fax": "415-555-0199", "altemail": "finance@cloudhost.example"},
-  {"internalid": 7002, "entityid": "Legal Ops LLC", "email": "billing@legalops.example", "phone": "212-555-0131", "altphone": "212-555-0132", "fax": "212-555-0199", "altemail": "accounting@legalops.example"}
+  {
+    "internalid": 7001,
+    "entityid": "CloudHost Inc",
+    "email": "ap@cloudhost.example",
+    "phone": "415-555-0101",
+    "altphone": "415-555-0102",
+    "fax": "415-555-0199",
+    "altemail": "finance@cloudhost.example"
+  },
+  {
+    "internalid": 7002,
+    "entityid": "Legal Ops LLC",
+    "email": "billing@legalops.example",
+    "phone": "212-555-0131",
+    "altphone": "212-555-0132",
+    "fax": "212-555-0199",
+    "altemail": "accounting@legalops.example"
+  }
 ]

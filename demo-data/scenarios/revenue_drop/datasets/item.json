@@ -1,4 +1,34 @@
 [
-  {"internalid": 9001, "itemid": "SKU-ANL-001", "displayname": "Analytics Platform", "salesdescription": "Subscription analytics suite", "type": "NonInvtPart", "baseprice": "12000"},
-  {"internalid": 9002, "itemid": "SKU-IMP-001", "displayname": "Implementation Services", "salesdescription": "Onboarding and implementation", "type": "InvtPart", "baseprice": "6000"}
+  {
+    "internalid": 9001,
+    "itemid": "SKU-ANL-001",
+    "displayname": "Analytics Platform",
+    "salesdescription": "Subscription analytics suite",
+    "type": "NonInvtPart",
+    "baseprice": "12000"
+  },
+  {
+    "internalid": 9002,
+    "itemid": "SKU-IMP-001",
+    "displayname": "Implementation Services",
+    "salesdescription": "Onboarding and implementation",
+    "type": "InvtPart",
+    "baseprice": "6000"
+  },
+  {
+    "internalid": 9003,
+    "itemid": "SKU-DAT-005",
+    "displayname": "Data Connectors",
+    "salesdescription": "Data connectors package",
+    "type": "InvtPart",
+    "baseprice": "4500"
+  },
+  {
+    "internalid": 9004,
+    "itemid": "SKU-SEC-007",
+    "displayname": "Security Bundle",
+    "salesdescription": "Security controls bundle",
+    "type": "NonInvtPart",
+    "baseprice": "5200"
+  }
 ]

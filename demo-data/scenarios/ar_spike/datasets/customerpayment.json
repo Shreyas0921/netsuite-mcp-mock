@@ -3,12 +3,18 @@
     "internalid": 8201,
     "trandate": "10/20/2025",
     "amount": "12000",
-    "customerMain": {"internalid": 5002, "companyname": "Bright Logistics"}
+    "customerMain": {
+      "internalid": 5002,
+      "companyname": "Bright Logistics"
+    }
   },
   {
     "internalid": 8202,
     "trandate": "11/18/2025",
     "amount": "5000",
-    "customerMain": {"internalid": 5001, "companyname": "Apex Retail"}
+    "customerMain": {
+      "internalid": 5001,
+      "companyname": "Apex Retail"
+    }
   }
 ]

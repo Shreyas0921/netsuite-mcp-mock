@@ -54,7 +54,9 @@
     "lint": "eslint . --ext .ts",
     "ngrok": "source .env && [ -n \"$NGROK_AUTH_TOKEN\" ] && [ -n \"$NGROK_DOMAIN\" ] && ngrok http --config=ngrok.yml --log-level=debug --authtoken=\"$NGROK_AUTH_TOKEN\" --domain=\"$NGROK_DOMAIN\" 3000 || echo \"[NOTICE]: Ngrok tunnel not running - NGROK_AUTH_TOKEN or NGROK_DOMAIN not set\"",
     "stop": "pkill -f 'node dist/http-server.js'; pkill -f 'node dist/stdio-server.js'; pkill -f 'ngrok http'; pkill -f '@modelcontextprotocol/inspector'; sleep 1; pkill -9 -f 'node dist/stdio-server.js' 2>/dev/null || echo 'All processes stopped'",
-    "inspector": "npx @modelcontextprotocol/inspector node dist/stdio-server.js"
+    "inspector": "npx @modelcontextprotocol/inspector node dist/stdio-server.js",
+    "sync:scenario-data": "node scripts/sync-scenarios.cjs",
+    "validate:scenario-parity": "node scripts/validate-scenario-parity.cjs"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.18.1",
@@ -72,7 +74,8 @@
     "uuid": "^13.0.0",
     "winston": "^3.10.0",
     "zod": "^3.25.76",
-    "zod-to-json-schema": "^3.24.6"
+    "zod-to-json-schema": "^3.24.6",
+    "@chatfinai/mcp-scenario-contract": "file:../mcp-scenario-contract"
   },
   "devDependencies": {
     "@eslint/js": "^9.36.0",

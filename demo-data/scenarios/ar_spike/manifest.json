@@ -17,5 +17,10 @@
     "customerpayment": "datasets/customerpayment.json",
     "creditmemo": "datasets/creditmemo.json",
     "transaction": "datasets/transaction.json"
+  },
+  "contract": {
+    "package": "@chatfinai/mcp-scenario-contract",
+    "version": "1.0.0",
+    "scenario": "ar_spike"
   }
 }

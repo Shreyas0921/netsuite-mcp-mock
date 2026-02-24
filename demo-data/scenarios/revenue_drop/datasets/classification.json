@@ -1,4 +1,10 @@
 [
-  {"internalid": 31, "name": "Enterprise"},
-  {"internalid": 32, "name": "Mid-Market"}
+  {
+    "internalid": 31,
+    "name": "Enterprise"
+  },
+  {
+    "internalid": 32,
+    "name": "Mid-Market"
+  }
 ]

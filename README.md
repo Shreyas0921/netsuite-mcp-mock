@@ -522,3 +522,64 @@ npm run sync:scenario-data -- --check
 - `ar_spike`: receivable concentration and delayed collections.
 - `revenue_drop`: lower billings and increased discount/churn pressure.
 - `supplier_leadtime_shock`: increased ops expense and open receivables linked to supplier delay fallout.
+
+## LLM evaluation queries (production-style)
+
+Use these prompts to simulate real production use: the agent is connected to MCP tools but does not know the underlying dataset or scenario name.
+
+### Query 1: open-ended incident RCA
+
+```text
+You are an on-call supply chain RCA agent.
+You have access to connected NetSuite and WMS MCP tools, but you do not know what data is available in advance.
+
+Task:
+1) Detect the most material current business issue.
+2) Identify the most likely root cause chain across systems.
+3) Cite concrete evidence from both systems (records/fields/metrics).
+4) Provide confidence (0-100) and the top 2 alternative hypotheses with rejection reasons.
+5) Recommend 3 actions: immediate (24h), short-term (7d), medium-term (30d).
+```
+
+Pass criteria:
+- Agent discovers issues from tool outputs rather than relying on scenario labels.
+- Output includes cross-system causality (operational signal + financial signal).
+- Evidence is specific and traceable to returned data.
+
+### Query 2: finance-first anomaly triage
+
+```text
+Assume finance reports worsening cash conversion and/or revenue performance, but no root cause is known.
+Use available NetSuite and WMS MCP tools to determine whether the driver is primarily:
+A) demand/commercial,
+B) fulfillment execution,
+C) supplier/inbound constraint,
+or D) data quality/reporting artifact.
+
+Return:
+1) ranked diagnosis with probabilities,
+2) supporting evidence by system,
+3) missing data that would most reduce uncertainty.
+```
+
+Pass criteria:
+- Agent evaluates multiple hypotheses before converging.
+- At least one WMS and one NetSuite signal are used in ranking.
+- Uncertainty and data gaps are explicitly called out.
+
+### Query 3: operator-ready action brief
+
+```text
+Produce an operator-ready incident brief from current MCP data.
+Include:
+1) executive summary (<=5 lines),
+2) impacted SKUs, locations, suppliers, and customer segments,
+3) quantified business impact range,
+4) remediation plan with owner, priority, and expected impact,
+5) validation checks to confirm recovery over the next 2 reporting cycles.
+```
+
+Pass criteria:
+- Action plan is causally tied to diagnosed root cause.
+- Impact framing is measurable (counts, amounts, delays, backlog, etc.).
+- Follow-up checks are testable with existing MCP tools.

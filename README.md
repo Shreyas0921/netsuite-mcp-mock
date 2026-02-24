@@ -119,9 +119,30 @@ Validate scenario packs:
 npm run validate:demo-data
 ```
 
+Generate or manage scenario packs with the seed CLI:
+
+```bash
+# Build first so dist/seed-cli.js exists
+npm run build
+
+# Create a deterministic scenario
+npm run seed:create -- --name my_demo --profile ar_spike --seed 42
+
+# Update scenario in place
+npm run seed:update -- --name my_demo --scale medium
+
+# Validate one or all scenarios
+npm run seed:validate -- --name my_demo
+npm run seed:validate
+
+# List scenarios
+npm run seed:list
+```
+
 Detailed guide:
 
 - [Mock Data Guide](docs/mock-data.md)
+- [Seed Data Generator Requirements](docs/seed-data-generator-requirements.md)
 
 ## Installation
 

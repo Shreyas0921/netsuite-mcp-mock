@@ -5,7 +5,8 @@
   "main": "dist/index.js",
   "bin": {
     "netsuite-mcp-http": "dist/http-server.js",
-    "netsuite-mcp-stdio": "dist/stdio-server.js"
+    "netsuite-mcp-stdio": "dist/stdio-server.js",
+    "netsuite-mcp-seed": "dist/seed-cli.js"
   },
   "keywords": [
     "netsuite",
@@ -44,6 +45,11 @@
     "build": "rimraf dist/ && tsc -p .",
     "test": "npm run build && node --test test",
     "validate:demo-data": "node setup/validate-demo-data.js",
+    "seed": "node dist/seed-cli.js",
+    "seed:create": "node dist/seed-cli.js create-scenario",
+    "seed:update": "node dist/seed-cli.js update-scenario",
+    "seed:list": "node dist/seed-cli.js list-scenarios",
+    "seed:validate": "node dist/seed-cli.js validate-scenario",
     "prepublishOnly": "yarn build",
     "lint": "eslint . --ext .ts",
     "ngrok": "source .env && [ -n \"$NGROK_AUTH_TOKEN\" ] && [ -n \"$NGROK_DOMAIN\" ] && ngrok http --config=ngrok.yml --log-level=debug --authtoken=\"$NGROK_AUTH_TOKEN\" --domain=\"$NGROK_DOMAIN\" 3000 || echo \"[NOTICE]: Ngrok tunnel not running - NGROK_AUTH_TOKEN or NGROK_DOMAIN not set\"",

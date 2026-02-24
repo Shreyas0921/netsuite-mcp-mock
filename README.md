@@ -516,3 +516,9 @@ npm run sync:scenario-data -- --check
 - `sync:scenario-data` regenerates committed scenario JSON from the pinned contract package.
 - `validate:scenario-parity` validates canonical + cross-source parity rules.
 - `sync:scenario-data -- --check` fails if committed data is out of sync.
+
+## Top 3 seeded RCA scenarios
+
+- `ar_spike`: receivable concentration and delayed collections.
+- `revenue_drop`: lower billings and increased discount/churn pressure.
+- `supplier_leadtime_shock`: increased ops expense and open receivables linked to supplier delay fallout.

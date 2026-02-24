@@ -1,0 +1,17 @@
+[
+  {
+    "internalid": 1,
+    "namenohierarchy": "Global",
+    "parent": null
+  },
+  {
+    "internalid": 2,
+    "namenohierarchy": "US",
+    "parent": 1
+  },
+  {
+    "internalid": 3,
+    "namenohierarchy": "US West",
+    "parent": 2
+  }
+]

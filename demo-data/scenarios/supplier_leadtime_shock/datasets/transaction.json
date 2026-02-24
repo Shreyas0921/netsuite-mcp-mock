@@ -1,0 +1,257 @@
+[
+  {
+    "internalid": 8401,
+    "trandate": "10/07/2025",
+    "postingperiod": {
+      "internalid": 302,
+      "text": "Oct 2025"
+    },
+    "closedate": "11/20/2025",
+    "type": "VendBill",
+    "tranid": "BILL-8401",
+    "transactionnumber": "VB-2025-001",
+    "amount": 22500,
+    "account": {
+      "internalid": 6100,
+      "number": "6100",
+      "text": "Operations Expense"
+    },
+    "memomain": "Expedite freight and supplier penalty charges",
+    "memo": "Expedite freight and supplier penalty charges",
+    "vendor": {
+      "internalid": 7001,
+      "entityid": "CloudHost Inc"
+    },
+    "department": {
+      "internalid": 12,
+      "text": "Operations"
+    },
+    "subsidiary": {
+      "internalid": 2,
+      "text": "US"
+    },
+    "amortizationSchedule": {
+      "name": "Cloud Annual"
+    },
+    "revrecstartdate": "10/01/2025",
+    "revrecenddate": "09/30/2026",
+    "status": "Open",
+    "entity": "CloudHost Inc",
+    "class": {
+      "name": "Enterprise"
+    },
+    "location": {
+      "name": "San Francisco"
+    },
+    "posting": "T",
+    "accounttype": "Expense",
+    "accountingperiod": {
+      "startdate": "10/1/2025",
+      "enddate": "10/31/2025"
+    }
+  },
+  {
+    "internalid": 8402,
+    "trandate": "10/10/2025",
+    "postingperiod": {
+      "internalid": 302,
+      "text": "Oct 2025"
+    },
+    "closedate": "10/25/2025",
+    "type": "VendPymt",
+    "tranid": "BILLPAY-8402",
+    "transactionnumber": "VP-2025-001",
+    "amount": 22500,
+    "account": {
+      "internalid": 6100,
+      "number": "6100",
+      "text": "Operations Expense"
+    },
+    "memomain": "Partial payment for expedite vendor costs",
+    "memo": "Partial payment for expedite vendor costs",
+    "vendor": {
+      "internalid": 7001,
+      "entityid": "CloudHost Inc"
+    },
+    "department": {
+      "internalid": 12,
+      "text": "Operations"
+    },
+    "subsidiary": {
+      "internalid": 2,
+      "text": "US"
+    },
+    "amortizationSchedule": {
+      "name": "Cloud Annual"
+    },
+    "revrecstartdate": "10/01/2025",
+    "revrecenddate": "09/30/2026",
+    "status": "Paid In Full",
+    "entity": "CloudHost Inc",
+    "class": {
+      "name": "Enterprise"
+    },
+    "location": {
+      "name": "San Francisco"
+    },
+    "posting": "T",
+    "accounttype": "Expense",
+    "accountingperiod": {
+      "startdate": "10/1/2025",
+      "enddate": "10/31/2025"
+    }
+  },
+  {
+    "internalid": 8403,
+    "trandate": "11/03/2025",
+    "postingperiod": {
+      "internalid": 303,
+      "text": "Nov 2025"
+    },
+    "closedate": "",
+    "type": "Journal",
+    "tranid": "JE-8403",
+    "transactionnumber": "JE-2025-009",
+    "amount": 33000,
+    "account": {
+      "internalid": 1110,
+      "number": "1110",
+      "text": "A/R - Enterprise"
+    },
+    "memomain": "AR adjustment",
+    "memo": "AR adjustment",
+    "vendor": {
+      "internalid": 7002,
+      "entityid": "Legal Ops LLC"
+    },
+    "department": {
+      "internalid": 11,
+      "text": "Sales"
+    },
+    "subsidiary": {
+      "internalid": 2,
+      "text": "US"
+    },
+    "amortizationSchedule": {
+      "name": ""
+    },
+    "revrecstartdate": "",
+    "revrecenddate": "",
+    "status": "Pending Approval",
+    "entity": "Apex Retail",
+    "class": {
+      "name": "Enterprise"
+    },
+    "location": {
+      "name": "New York"
+    },
+    "posting": "T",
+    "accounttype": "Income",
+    "accountingperiod": {
+      "startdate": "11/1/2025",
+      "enddate": "11/30/2025"
+    }
+  },
+  {
+    "internalid": 8404,
+    "trandate": "11/05/2025",
+    "postingperiod": {
+      "internalid": 303,
+      "text": "Nov 2025"
+    },
+    "closedate": "",
+    "type": "Journal",
+    "tranid": "JE-8404",
+    "transactionnumber": "JE-2025-010",
+    "amount": 28000,
+    "account": {
+      "internalid": 1110,
+      "number": "1110",
+      "text": "A/R - Enterprise"
+    },
+    "memomain": "Invoice recognition",
+    "memo": "Invoice recognition",
+    "vendor": {
+      "internalid": 7002,
+      "entityid": "Legal Ops LLC"
+    },
+    "department": {
+      "internalid": 11,
+      "text": "Sales"
+    },
+    "subsidiary": {
+      "internalid": 2,
+      "text": "US"
+    },
+    "amortizationSchedule": {
+      "name": ""
+    },
+    "revrecstartdate": "",
+    "revrecenddate": "",
+    "status": "Approved for Posting",
+    "entity": "Apex Retail",
+    "class": {
+      "name": "Enterprise"
+    },
+    "location": {
+      "name": "New York"
+    },
+    "posting": "T",
+    "accounttype": "Income",
+    "accountingperiod": {
+      "startdate": "11/1/2025",
+      "enddate": "11/30/2025"
+    }
+  },
+  {
+    "internalid": 8405,
+    "trandate": "11/18/2025",
+    "postingperiod": {
+      "internalid": 303,
+      "text": "Nov 2025"
+    },
+    "closedate": "",
+    "type": "VendBill",
+    "tranid": "BILL-8405",
+    "transactionnumber": "VB-2025-005",
+    "amount": 19000,
+    "account": {
+      "internalid": 6100,
+      "number": "6100",
+      "text": "Operations Expense"
+    },
+    "memomain": "Premium supplier surcharge due to lead-time breach",
+    "memo": "Premium supplier surcharge due to lead-time breach",
+    "vendor": {
+      "internalid": 7002,
+      "entityid": "Legal Ops LLC"
+    },
+    "department": {
+      "internalid": 12,
+      "text": "Operations"
+    },
+    "subsidiary": {
+      "internalid": 2,
+      "text": "US"
+    },
+    "amortizationSchedule": {
+      "name": "Shock Recovery Plan"
+    },
+    "revrecstartdate": "11/01/2025",
+    "revrecenddate": "12/31/2025",
+    "status": "Pending Approval",
+    "entity": "Legal Ops LLC",
+    "class": {
+      "name": "Enterprise"
+    },
+    "location": {
+      "name": "Austin"
+    },
+    "posting": "T",
+    "accounttype": "Expense",
+    "accountingperiod": {
+      "startdate": "11/1/2025",
+      "enddate": "11/30/2025"
+    }
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "scenario": "supplier_leadtime_shock",
+  "description": "Margin and cash pressure driven by supplier lead-time shock and fulfillment disruption",
+  "as_of_date": "2025-11-30",
+  "datasets": {
+    "accounts": "datasets/accounts.json",
+    "accountingperiod": "datasets/accountingperiod.json",
+    "subsidiary": "datasets/subsidiary.json",
+    "vendor": "datasets/vendor.json",
+    "customer": "datasets/customer.json",
+    "department": "datasets/department.json",
+    "location": "datasets/location.json",
+    "item": "datasets/item.json",
+    "classification": "datasets/classification.json",
+    "invoice": "datasets/invoice.json",
+    "customerpayment": "datasets/customerpayment.json",
+    "creditmemo": "datasets/creditmemo.json",
+    "transaction": "datasets/transaction.json"
+  },
+  "contract": {
+    "package": "@chatfinai/mcp-scenario-contract",
+    "version": "1.0.0",
+    "scenario": "supplier_leadtime_shock"
+  }
+}

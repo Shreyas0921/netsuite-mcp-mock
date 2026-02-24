@@ -1,0 +1,20 @@
+[
+  {
+    "internalid": 8301,
+    "trandate": "11/22/2025",
+    "amount": "2500",
+    "customerMain": {
+      "internalid": 5001,
+      "companyname": "Apex Retail"
+    }
+  },
+  {
+    "internalid": 8309,
+    "trandate": "11/26/2025",
+    "amount": "2400",
+    "customerMain": {
+      "internalid": 5001,
+      "companyname": "Apex Retail"
+    }
+  }
+]

@@ -1,0 +1,143 @@
+[
+  {
+    "internalid": 8101,
+    "tranid": "INV-8101",
+    "trandate": "10/05/2025",
+    "postingperiod": {
+      "internalid": 302,
+      "text": "Oct 2025"
+    },
+    "customer": {
+      "internalid": 5001,
+      "entityid": "Apex Retail"
+    },
+    "entity": {
+      "internalid": 5001,
+      "text": "Apex Retail"
+    },
+    "account": {
+      "internalid": 1110,
+      "number": "1110",
+      "text": "A/R - Enterprise"
+    },
+    "status": "Open",
+    "amount": 36000,
+    "amountremaining": 36000,
+    "duedate": "11/04/2025",
+    "memo": "Delayed fulfillment - awaiting supplier replenishment",
+    "type": "CustInvc",
+    "mainline": "T",
+    "memorized": "F",
+    "item": {
+      "internalid": 9001,
+      "type": "Service"
+    }
+  },
+  {
+    "internalid": 8102,
+    "tranid": "INV-8102",
+    "trandate": "10/15/2025",
+    "postingperiod": {
+      "internalid": 302,
+      "text": "Oct 2025"
+    },
+    "customer": {
+      "internalid": 5002,
+      "entityid": "Bright Logistics"
+    },
+    "entity": {
+      "internalid": 5002,
+      "text": "Bright Logistics"
+    },
+    "account": {
+      "internalid": 1120,
+      "number": "1120",
+      "text": "A/R - Mid Market"
+    },
+    "status": "Paid In Full",
+    "amount": 9000,
+    "amountremaining": 0,
+    "duedate": "11/14/2025",
+    "memo": "Implementation milestone",
+    "type": "CustInvc",
+    "mainline": "T",
+    "memorized": "F",
+    "item": {
+      "internalid": 9002,
+      "type": "Service"
+    }
+  },
+  {
+    "internalid": 8103,
+    "tranid": "INV-8103",
+    "trandate": "11/02/2025",
+    "postingperiod": {
+      "internalid": 303,
+      "text": "Nov 2025"
+    },
+    "customer": {
+      "internalid": 5001,
+      "entityid": "Apex Retail"
+    },
+    "entity": {
+      "internalid": 5001,
+      "text": "Apex Retail"
+    },
+    "account": {
+      "internalid": 1110,
+      "number": "1110",
+      "text": "A/R - Enterprise"
+    },
+    "status": "Open",
+    "amount": 41000,
+    "amountremaining": 41000,
+    "duedate": "12/02/2025",
+    "memo": "Expansion delayed due to supply constraints",
+    "type": "CustInvc",
+    "mainline": "T",
+    "memorized": "F",
+    "item": {
+      "internalid": 9001,
+      "type": "Service"
+    }
+  },
+  {
+    "internalid": 91001,
+    "tranid": "INV-8101",
+    "trandate": "10/05/2025",
+    "amount": 36000,
+    "item": {
+      "internalid": 9001,
+      "type": "NonInvtPart"
+    },
+    "type": "CustInvc",
+    "mainline": "F",
+    "memorized": "F"
+  },
+  {
+    "internalid": 91002,
+    "tranid": "INV-8101",
+    "trandate": "10/05/2025",
+    "amount": 9000,
+    "item": {
+      "internalid": 9002,
+      "type": "InvtPart"
+    },
+    "type": "CustInvc",
+    "mainline": "F",
+    "memorized": "F"
+  },
+  {
+    "internalid": 91003,
+    "tranid": "INV-8103",
+    "trandate": "11/02/2025",
+    "amount": 33000,
+    "item": {
+      "internalid": 9001,
+      "type": "NonInvtPart"
+    },
+    "type": "CustInvc",
+    "mainline": "F",
+    "memorized": "F"
+  }
+]

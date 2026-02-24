@@ -1,0 +1,50 @@
+[
+  {
+    "internalid": 1000,
+    "accountSearchDisplayNameCopy": "Assets",
+    "acctNumber": "1000",
+    "parent": null,
+    "acctType": "Other Asset",
+    "acctTypeText": "Other Asset"
+  },
+  {
+    "internalid": 1100,
+    "accountSearchDisplayNameCopy": "Accounts Receivable",
+    "acctNumber": "1100",
+    "parent": 1000,
+    "acctType": "Accounts Receivable",
+    "acctTypeText": "Accounts Receivable"
+  },
+  {
+    "internalid": 1110,
+    "accountSearchDisplayNameCopy": "A/R - Enterprise",
+    "acctNumber": "1110",
+    "parent": 1100,
+    "acctType": "Accounts Receivable",
+    "acctTypeText": "Accounts Receivable"
+  },
+  {
+    "internalid": 1120,
+    "accountSearchDisplayNameCopy": "A/R - Mid Market",
+    "acctNumber": "1120",
+    "parent": 1100,
+    "acctType": "Accounts Receivable",
+    "acctTypeText": "Accounts Receivable"
+  },
+  {
+    "internalid": 4000,
+    "accountSearchDisplayNameCopy": "Revenue",
+    "acctNumber": "4000",
+    "parent": null,
+    "acctType": "Income",
+    "acctTypeText": "Income"
+  },
+  {
+    "internalid": 6100,
+    "accountSearchDisplayNameCopy": "Operations Expense",
+    "acctNumber": "6100",
+    "parent": null,
+    "acctType": "Expense",
+    "acctTypeText": "Expense"
+  }
+]

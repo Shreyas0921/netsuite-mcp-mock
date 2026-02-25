@@ -24,8 +24,12 @@
     "url": "https://github.com/ChatFinAI/netsuite-mcp/issues"
   },
   "homepage": "https://github.com/ChatFinAI/netsuite-mcp#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "files": [
     "dist/**/*",
+    "demo-data/**/*",
     "README.md",
     "LICENSE",
     ".env.example",
@@ -50,7 +54,7 @@
     "seed:update": "node dist/seed-cli.js update-scenario",
     "seed:list": "node dist/seed-cli.js list-scenarios",
     "seed:validate": "node dist/seed-cli.js validate-scenario",
-    "prepublishOnly": "yarn build",
+    "prepublishOnly": "npm run build",
     "lint": "eslint . --ext .ts",
     "ngrok": "source .env && [ -n \"$NGROK_AUTH_TOKEN\" ] && [ -n \"$NGROK_DOMAIN\" ] && ngrok http --config=ngrok.yml --log-level=debug --authtoken=\"$NGROK_AUTH_TOKEN\" --domain=\"$NGROK_DOMAIN\" 3000 || echo \"[NOTICE]: Ngrok tunnel not running - NGROK_AUTH_TOKEN or NGROK_DOMAIN not set\"",
     "stop": "pkill -f 'node dist/http-server.js'; pkill -f 'node dist/stdio-server.js'; pkill -f 'ngrok http'; pkill -f '@modelcontextprotocol/inspector'; sleep 1; pkill -9 -f 'node dist/stdio-server.js' 2>/dev/null || echo 'All processes stopped'",
@@ -75,7 +79,7 @@
     "winston": "^3.10.0",
     "zod": "^3.25.76",
     "zod-to-json-schema": "^3.24.6",
-    "@chatfinai/mcp-scenario-contract": "file:../mcp-scenario-contract"
+    "@chatfinai/mcp-scenario-contract": "git+https://github.com/Shreyas0921/mcp-scenario-contract.git#ecfcc31791c7d9f5a1f4974b411d95837fedba00"
   },
   "devDependencies": {
     "@eslint/js": "^9.36.0",

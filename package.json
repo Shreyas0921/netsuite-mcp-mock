@@ -79,7 +79,7 @@
     "winston": "^3.10.0",
     "zod": "^3.25.76",
     "zod-to-json-schema": "^3.24.6",
-    "@chatfinai/mcp-scenario-contract": "git+https://github.com/Shreyas0921/mcp-scenario-contract.git#ecfcc31791c7d9f5a1f4974b411d95837fedba00"
+    "@chatfinai/mcp-scenario-contract": "1.0.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.36.0",

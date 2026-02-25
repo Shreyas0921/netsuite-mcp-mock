@@ -2,9 +2,9 @@
 # yarn lockfile v1
 
 
-"@chatfinai/mcp-scenario-contract@git+https://github.com/Shreyas0921/mcp-scenario-contract.git#ecfcc31791c7d9f5a1f4974b411d95837fedba00":
+"@chatfinai/mcp-scenario-contract@1.0.0":
   version "1.0.0"
-  resolved "git+https://github.com/Shreyas0921/mcp-scenario-contract.git#ecfcc31791c7d9f5a1f4974b411d95837fedba00"
+  resolved "https://npm.pkg.github.com/@chatfinai/mcp-scenario-contract/-/mcp-scenario-contract-1.0.0.tgz"
 
 "@colors/colors@^1.6.0", "@colors/colors@1.6.0":
   version "1.6.0"
